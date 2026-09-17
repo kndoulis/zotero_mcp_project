@@ -1,0 +1,43 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "zotero-mcp-server"
+version = "0.1.0"
+description = "MCP server for Zotero library integration with semantic search and research assistance"
+authors = [
+    {name = "Big Poppa", email = "bigpoppa@example.com"},
+]
+dependencies = [
+    "mcp>=1.0.0",
+    "httpx>=0.27.0",
+    "pydantic>=2.0.0",
+    "python-dotenv>=1.0.0",
+    "sentence-transformers>=2.2.0",
+    "numpy>=1.24.0",
+    "scikit-learn>=1.3.0",
+    "faiss-cpu>=1.7.4",
+    "tiktoken>=0.7.0",
+    "anthropic>=1.0.0",
+    "fastapi>=0.110.0",
+    "uvicorn[standard]>=0.29.0",
+]
+requires-python = ">=3.9"
+
+[project.scripts]
+zotero-mcp-server = "zotero_mcp_server.main:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/zotero_mcp_server"]
+
+[tool.hatch.envs.default]
+dependencies = [
+    "pytest>=7.0.0",
+    "pytest-asyncio>=0.21.0",
+    "pytest-cov>=4.0.0",
+]
+
+[tool.hatch.envs.default.scripts]
+test = "pytest {args:tests}"
+test-cov = "pytest --cov-report=term-missing --cov=zotero_mcp_server {args:tests}"

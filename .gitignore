@@ -1,0 +1,15 @@
+# Secrets
+.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Editor/OS
+.DS_Store
+.claude/
+
+# Persisted search index, usage logs, agent notes
+data/

@@ -1,0 +1,17 @@
+[
+  {"query": "chest X-ray pneumonia detection with deep learning", "relevant_paper_keys": ["KJLL9K6P", "X6FKA365"]},
+  {"query": "generative adversarial networks for medical imaging data augmentation", "relevant_paper_keys": ["TM8LQXFS", "UAKN8HW6", "UU683AUC"]},
+  {"query": "spectral normalization for stabilizing GAN training", "relevant_paper_keys": ["EKW3W3IJ"]},
+  {"query": "Wasserstein GAN training stability", "relevant_paper_keys": ["DG4Y92RS", "Y8TI7VKY"]},
+  {"query": "batch normalization and internal covariate shift", "relevant_paper_keys": ["EWILRB4M"]},
+  {"query": "residual learning for deep image recognition", "relevant_paper_keys": ["IBIH7BK7"]},
+  {"query": "long short-term memory recurrent neural networks", "relevant_paper_keys": ["HESU4VPU"]},
+  {"query": "vanishing and exploding gradients in recurrent neural networks", "relevant_paper_keys": ["3V2VQQEY"]},
+  {"query": "Parkinson's disease gait analysis using wearable sensors", "relevant_paper_keys": ["7345VA89", "WZ3LVHK9", "8VYGUTNU"]},
+  {"query": "explainable AI SHAP feature importance for model predictions", "relevant_paper_keys": ["I6GDLBGU"]},
+  {"query": "spiking neural network surrogate gradient training", "relevant_paper_keys": ["BKRWYUZ4"]},
+  {"query": "dropout regularization to prevent neural network overfitting", "relevant_paper_keys": ["ZGN4F2MU"]},
+  {"query": "Adam optimizer for stochastic gradient-based optimization", "relevant_paper_keys": ["XR6SQPIP"]},
+  {"query": "cycle-consistent adversarial networks for unpaired image-to-image translation", "relevant_paper_keys": ["PI6VZP7Q"]},
+  {"query": "PyTorch deep learning framework design", "relevant_paper_keys": ["EPX53IFX"]}
+]
